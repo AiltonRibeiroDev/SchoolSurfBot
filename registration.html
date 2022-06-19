@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MATRICULE-SE</title>
+<!-- CSS -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Alice&family=League+Spartan:wght@300&family=Montserrat+Alternates:wght@100;300&family=Montserrat:ital,wght@1,100&family=Nunito&family=Open+Sans&family=PT+Sans+Narrow&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+<link rel="stylesheet" href="/css/style-4.css">
+</head>
+
+<body>
+  
+  <nav class="nav">
+
+    
+    <div class="menu">
+
+      <a href="index.html"> <img src="svg/surfbot-logo.svg" alt=""></a>
+
+      <section class="options">
+        <ul class="navbar_menu">
+          <li><a href="https://guia.costadosauipe.com.br/conheca-as-cinco-melhores-praias-para-surfar-no-brasil" target="_blank" rel="noopener noreferrer">Praia</a></li>
+          <li class="ellipse"><img src="img/Ellipse.png" alt=""></li>
+          <li><a href="#aulas" rel="noopener noreferrer">Aulas</a></li>
+          <li class="ellipse"><img src="img/Ellipse.png" alt=""></li>
+          <li><a href="#contato" rel="noopener noreferrer">Contato</a></li>
+          <li class="ellipse"><img src="img/Ellipse.png" alt=""></li>
+          <li class="lineRed"><a href="#" rel="noopener noreferrer">Matricule-se</a></li>
+        </ul>
+      </section>
+    </div>
+  </nav>
+
+<!--Matricula-->
+
+
+
+  <h1 class="matriculaTitlle">Matricule-se</h1><br>
+
+  <main class="registration-form">
+
+<div class="BoxOne">
+  <form action="">
+
+
+    <label for="">Nome</label>
+    <input type="text"><br>
+    
+    <label for="">Email</label>
+    <input type="email"><br>
+    
+    <label for="">CPF</label>
+    <input type="cpf"><br>
+    
+    
+     
+    <table>
+      <tr>
+        <th>Endereço</th>
+        <th>Estado</th>
+      </tr>
+      <tr>
+        <td><input type="text" placeholder="Rua, Número e Bairro"></td>
+        <td><input type="text" placeholder="Selecione o Estado"></td>
+      </tr>
+      <tr>
+        <td>CEP</td>
+        <td>Cidade</td>
+      </tr>
+      <tr>
+        <td><input type="cep" placeholder="22.222-000"></td>
+        <td><input type="text" placeholder="Selecione a Cidade"></td>
+      </tr>
+    </table>
+    
+      <h2 >Forma de pagamento</h2>
+    </section>
+    
+    
+    </form>
+    
+<div class="form-payment">
+
+<section class="select"><input  type="checkbox"> Cartão de Crédito</section>
+<section class="select"><input  type="checkbox"> Boleto Bancário</section>
+
+</div>
+
+<table>
+  <tr>
+    <th>Nome no Cartão</th>
+    <th>Data de Expiração</th>
+  </tr>
+  <tr>
+    <td><input type="text" placeholder="Nome impresso no Cartão"></td>
+    <td class="inputP"><input type="date" placeholder="Mês"><input type="date" placeholder="Ano"></td>
+    
+  </tr>
+
+
+  <tr>
+    <td>Número do Cartão</td>
+    <td>Código de Segurança</td>
+    
+  </tr>
+  
+  <tr>
+    <td><input type="number" placeholder="5555 5555 5555 5555"></td>
+    <td><input type="number" placeholder="xxx"></td>
+  </tr>
+</table>
+<br>
+
+<h3 class="nota">Seu cartão será debitado em R$ 49,00</h3>
+
+<button class="btn-Registration">REALIZAR MATRÍCULA</button>
+
+<p class="padlock"><img src="svg/cadeado.svg" alt="">Informações seguras e criptografadas</p>
+
+</div>
+
+<!---------------------------------------------------------------------------->
+
+<div class="boxTree">
+
+<h4 >Escolha o Plano </h4>
+
+<div class="btn-box">
+<button class="buttonBox" id="infantil" onclick="planoInf()">Infantil</button>
+<button class="buttonBox" id="adulto" onclick="pAdult()">Adulto</button>
+<button class="buttonBox" id="profissional" onclick="pProfissional()">Profissional</button>
+</div>
+
+
+<div class="box">
+  <div class="sufbotIcon">
+    <img src="svg/surfbot-icon.svg" alt="">
+
+  </div>
+  <h3 id="name-plano">INFANTIL</h3>
+  <div class="boxtwo">
+
+    <section class="grup">
+      <p id="idadePS">Público entre 5 e 15 anos</p>
+    </section>
+    <section class="grup">
+      <p id="ep">Equipamentos fornecidos</p>
+    </section>
+    <section class="grup">
+      <p id="hora">Horários de Sex. à Sab.</p>
+    </section>
+    <section class="grup">
+      <p id="qHoras">2 horas seguidas de aula</p>
+    </section>
+
+  </div>
+
+</div>
+
+
+
+
+
+  </main>
+
+
+
+  <footer class="baseboard">
+
+
+
+
+    <h3>Surfnet 2021 - Alguns direitos reservados.</h3>
+    <img src="svg/surfbot-icon-branco.svg" alt="">
+    
+    
+    
+    </footer>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

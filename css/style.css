@@ -1,0 +1,142 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.bgheader{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: rgba(17, 136, 238, 1);
+  height: 30px;
+
+}
+
+.bgheader h4{
+  font-size: 14px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 3rem;
+}
+
+.menu{
+  background-color: rgba(23, 34, 45, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px;
+  align-items: center;
+  height: 60px;
+
+}
+
+
+
+.navbar_menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.navbar_menu li,a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+ 
+}
+
+.navbar_menu li,a:hover{
+  color: rgba(17, 136, 238, 1);
+  transition: 0.4s;
+
+}
+
+.seth-doyle{
+display: flex;
+height: 400px;
+background-image: url('/img/seth-doyle-151914\ \(1\).png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+justify-content: space-around;
+align-items: flex-end;
+
+
+
+
+}
+
+.intro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 240px;
+  margin-bottom: 60px;
+
+}
+
+
+
+#email{
+border: 0px;
+width: 280px;
+height: 50px;
+padding: 10px;
+border-radius: 5px;
+}
+
+.registration, .form{
+  font-family: 'Nunito';
+  font-weight: 700;
+}
+
+h1{
+
+font-family: 'Alice';
+color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 82px;
+
+}
+
+.form{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 440px;
+
+  
+}
+
+.registration{
+background-color: rgba(238, 34, 17, 1);
+border: 0px;
+width: 150px;
+height: 50px;
+border-radius: 5px;
+color: #FFFFFF;
+}
+
+.registration img{
+  margin-left: 10px;
+}
+
+.registration:hover{
+
+background-color:rgb(170, 31, 19) ;
+cursor: pointer;
+transition: 0.4s;
+}
+  
+
